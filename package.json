@@ -5,7 +5,7 @@
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watch",
-    "test:int": "jest --config jest.config.int.ts",
+    "test:int": "jest --config jest.config.int.ts --runInBand",
     "test:int:watch": "jest --config jest.config.int.ts --watch",
     "db:generate": "prisma generate"
   },
